@@ -125,7 +125,7 @@ body{
   width: 100%;
 }
 
-.content .container960{
+.content.container960{
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
@@ -154,6 +154,45 @@ body{
 }
 
 /*tablet*/
+.menu{
+  display: none;
+}
+
 @media only screen and (max-width:1024px){
-  
+
+  .container960{
+    width: 100%;
+  }
+
+  .banner .container960{
+    height: 100%;
+    padding-top: 9rem;
+    padding-left: 0;
+  }
+
+  .nav{
+    display: none;
+  }
+
+  .menu{
+    display: block;
+    text-align: center;
+  }
+
+  .navigation .container960{
+    justify-content: space-around;
+  }
+
+  .content.container960{
+    flex-wrap: wrap;
+  }
+
+  .product{
+    width: 47%;
+  }
+
+  .glasses{
+    display: none;
+  }
+
 }
