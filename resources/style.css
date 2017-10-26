@@ -1,0 +1,159 @@
+html{
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+/*div{
+  border: 1px solid red;
+}*/
+
+/*desktop*/
+
+.container960{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  background-color: black;
+
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.header .container960{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header .logo{
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.logo img{
+  height: 1.5rem;
+  width: auto;
+}
+
+.header p{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.banner{
+  width: 100%;
+  height: 25rem;
+  background-image: url("./images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner .container960{
+  height: 100%;
+  padding: 9rem;
+}
+
+.banner .text{
+  width: 20rem;
+  height: auto;
+  padding: 2rem 3rem;
+  background-color: black;
+}
+
+.text p{
+  font-weight: bold;
+}
+
+.text h1{
+  margin-top: 0.25rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navigation{
+  width: 100%;
+  background-color: firebrick;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navigation .container960{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content.container960{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border: 4px solid black;
+}
+
+.product .image{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.product img{
+  height: 9rem;
+}
+
+.product p{
+  background-color: black;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.content .container960{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.box{
+  width: 35%;
+}
+
+.box .title{
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.box .blacktext{
+  color: black;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  margin-top: 4rem;
+  background-color: black;
+}
+
+/*tablet*/
+@media only screen and (max-width:1024px){
+  
+}
