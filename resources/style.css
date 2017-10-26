@@ -194,8 +194,7 @@ body{
 
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width:470px),
-only screen and (max-width:470px){
+@media only screen and (max-width:470px){
 
   .banner .container960{
     width: 100%;
@@ -242,4 +241,55 @@ only screen and (max-width:470px){
     text-align: center;
   }
 
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+only screen and (max-width:470px) {
+    /* Retina-specific stuff here */
+    .banner .container960{
+      width: 100%;
+    }
+
+    .banner .text{
+      width: 100%;
+      height: auto;
+      padding: 1rem 2rem;
+    }
+
+    .banner{
+      height: 15rem;
+    }
+
+    .text p{
+      font-size: 0.77rem;
+    }
+
+    .text h1{
+      font-size: 1rem;
+    }
+
+    .content.container960{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .product{
+      width: 90%;
+    }
+
+    .watch{
+      display: none;
+    }
+
+    .box{
+      width: 90%;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer p{
+      text-align: center;
+    }
 }
