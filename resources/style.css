@@ -61,8 +61,7 @@ body{
 }
 
 .banner .container960{
-  height: 100%;
-  padding: 9rem;
+  margin-top: 9rem;
 }
 
 .banner .text{
@@ -165,9 +164,7 @@ body{
   }
 
   .banner .container960{
-    height: 100%;
-    padding-top: 9rem;
-    padding-left: 0;
+    margin-top: 9rem;
   }
 
   .nav{
@@ -193,6 +190,55 @@ body{
 
   .glasses{
     display: none;
+  }
+
+}
+
+@media only screen and (max-width:470px){
+
+  .banner .container960{
+    width: 100%;
+  }
+
+  .banner .text{
+    width: 100%;
+    height: auto;
+    padding: 1rem 2rem;
+  }
+
+  .banner{
+    height: 15rem;
+  }
+
+  .text p{
+    font-size: 0.77rem;
+  }
+
+  .text h1{
+    font-size: 1rem;
+  }
+
+  .content.container960{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product{
+    width: 90%;
+  }
+
+  .watch{
+    display: none;
+  }
+
+  .box{
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer p{
+    text-align: center;
   }
 
 }
