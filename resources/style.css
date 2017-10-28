@@ -200,10 +200,12 @@ body{
     width: 100%;
   }
 
+
   .banner .text{
     width: 100%;
     height: auto;
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
+    padding-left: 2rem;
   }
 
   .banner{
@@ -241,53 +243,4 @@ body{
     text-align: center;
   }
 
-}
-
-@media
-only screen and (max-width:470px) {
-    /* Retina-specific stuff here */
-    .banner .container960{
-      width: 100%;
-    }
-
-    .banner .text{
-      width: 100%;
-      height: auto;
-      padding: 1rem 2rem;
-    }
-
-    .banner{
-      height: 15rem;
-    }
-
-    .text p{
-      font-size: 0.77rem;
-    }
-
-    .text h1{
-      font-size: 1rem;
-    }
-
-    .content.container960{
-      width: 100%;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .product{
-      width: 90%;
-    }
-
-    .watch{
-      display: none;
-    }
-
-    .box{
-      width: 90%;
-      margin-bottom: 0.5rem;
-    }
-
-    .footer p{
-      text-align: center;
-    }
 }
